@@ -12,7 +12,7 @@ En este workshop vamos a crear una aplicación basada en la [API de Pokemon](htt
 Para instalar este repo no necesitas ninguna dependencia, basta con que clones el repositorio así
 
 ```shell
-    git clone https://github.com/DNeosphere/JS-from-zero-to-hero.git
+    git clone https://github.com/appitoriadev/Poke-Api-Test.git
 ```
 
 Esto descargará los archivos necesarios para empezar a trabajar.
