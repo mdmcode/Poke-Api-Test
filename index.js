@@ -113,6 +113,7 @@ function fightPokemons() {
   // 3. Narrar la batalla ;). Para esto vamos a usar el elemento modal__text, aquí vamos a ir llenando su innerHTML.
   // Empecemos con el Pokemon 1.
   let narrar = document.querySelector('.modal__text');
+  narrar.innerHTML = "Pokemon 1 ataca";
   
   // Ahora calculemos el daño que le hizo a pokemon2 y cuánta vida le queda, usemos la función de calcular daño
   ataque_y_defensa(attack_1, defense_2, hp_2);
@@ -127,7 +128,14 @@ function fightPokemons() {
   }
 
   // Ahora el Pokemon2, mismo procedimiento.
+  narrar.innerHTML = "Pokemon 1 ataca";
+  let hpd, dano = ataque_y_defensa(attack_2, defense_1, hp_1);
 
+  if (attack_2 > defense_1) {
+    narrar.innerHTML = "El pokemon 1 logra perforar la defensa del pokemon 2, recibio " + dano + " de dano";
+  } else {
+    narrar.innerHTML = "El pokemon 1 no logra perforar la defensa del pokemon 2, no hay dano"
+  }
 
   // Definamos el ganador que sería el más daño haya hecho al otro pokemon.
   // Recordemos que los puntos de daño son negativos!!
