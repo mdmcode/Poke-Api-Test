@@ -60,7 +60,7 @@ const createPokemons = async (poke1ID, poke2ID) => {
   poke1ImgElement.src =
   pokemon1.sprites.other["official-artwork"]["front_default"];
   poke1NameElement.innerHTML += pokemon1.name;
-  poke1HpElement.innerHTML = +pokemon1.stats[0]["base_stat"];
+  poke1HpElement.innerHTML += pokemon1.stats[0]["base_stat"];
   poke1AttackElement.innerHTML += pokemon1.stats[1]["base_stat"];
   poke1DefenseElement.innerHTML += pokemon1.stats[2]["base_stat"];
   poke1TypeElement.innerHTML += pokemon1.types[0].type.name;
