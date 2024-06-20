@@ -14,9 +14,8 @@ let poke1NameElement: HTMLElement | null =
   document.querySelector(".pokemon-1__name");
 let poke1AttackElement: HTMLElement | null =
   document.querySelector(".pokemon-1__attack");
-let poke1DefenseElement: HTMLElement | null = document.querySelector(
-  ".pokemon-1__defense"
-);
+let poke1DefenseElement: HTMLElement | null = 
+  document.querySelector(".pokemon-1__defense");
 let poke1TypeElement: HTMLElement | null =
   document.querySelector(".pokemon-1__type");
 
@@ -29,9 +28,8 @@ let poke2NameElement: HTMLElement | null =
   document.querySelector(".pokemon-2__name");
 let poke2AttackElement: HTMLElement | null =
   document.querySelector(".pokemon-2__attack");
-let poke2DefenseElement: HTMLElement | null = document.querySelector(
-  ".pokemon-2__defense"
-);
+let poke2DefenseElement: HTMLElement | null = 
+  document.querySelector(".pokemon-2__defense");
 let poke2TypeElement: HTMLElement | null =
   document.querySelector(".pokemon-2__type");
 
